@@ -1,1 +1,3 @@
 https://github.com/trevoirwilliams/leave-management-dotnetcore
+https://github.com/vasiliv/Hr.LeaveManagement
+VideoTutorials - ASP.NET Core - SOLID and Clean Architecture (.NET 5 and Up)
