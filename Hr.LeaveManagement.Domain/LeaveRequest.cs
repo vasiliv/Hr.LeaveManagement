@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Hr.LeaveManagement.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Hr.LeaveManagement.Domain
 {
-    public class LeaveRequest
+    public class LeaveRequest : BaseDomainEntity
     {
-        public int Id { get; set; }
+        //we have it in BaseDomainEntity
+        //public int Id { get; set; }
         //[ForeignKey("RequestingEmployeeId")]
         //public Employee RequestingEmployee { get; set; }
         public string RequestingEmployeeId { get; set; }
