@@ -3,12 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Hr.LeaveManagement.Application.DTOs
+namespace Hr.LeaveManagement.Application.DTOs.LeavaAllocation
 {
-    public class LeaveAllocationDto : BaseDto
+    public class CreateLeaveAllocationDto : BaseDto
     {
-        public int NumberOfDays { get; set; }   
-        public LeaveTypeDto LeaveType { get; set; }                
+        public int NumberOfDays { get; set; }
+        //public LeaveTypeDto LeaveType { get; set; }
         public int LeaveTypeId { get; set; }
         public int Period { get; set; }
     }
