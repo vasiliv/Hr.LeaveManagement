@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace Hr.LeaveManagement.Application.Features.LeaveTypes.Handlers.Queries
 {
     // IRequestHandler<GetLeaveTypeListRequest, List<LeaveTypeDto>>
-    // GetLeaveTypeListRequest - handler works on that particular reques
+    // GetLeaveTypeListRequest - handler works on that particular request
     // List<LeaveTypeDto> - return type
     public class GetLeaveTypeListRequestHandler : IRequestHandler<GetLeaveTypeListRequest, List<LeaveTypeDto>>
     {
