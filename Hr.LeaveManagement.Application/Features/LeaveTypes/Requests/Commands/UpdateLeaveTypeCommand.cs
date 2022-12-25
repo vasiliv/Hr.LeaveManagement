@@ -6,8 +6,8 @@ using System.Text;
 
 namespace Hr.LeaveManagement.Application.Features.LeaveTypes.Requests.Commands
 {
-    // returns Id
-    public class CreateLeaveTypeCommand : IRequest<int>
+    //Unit - returns nothing
+    public class UpdateLeaveTypeCommand : IRequest<Unit>    
     {
         public LeaveTypeDto LeaveTypeDto { get; set; }
     }

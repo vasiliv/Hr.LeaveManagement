@@ -1,4 +1,5 @@
 ﻿using Hr.LeaveManagement.Application.DTOs.Common;
+using Hr.LeaveManagement.Application.DTOs.LeaveType;
 using System;
 using System.Collections.Generic;
 using System.Text;
